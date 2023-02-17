@@ -20,8 +20,8 @@ global c
 
 ### CONFIG
 db_file = 'fileIndex.sqlite3'
-#srcFolder = r'C:\auxDrive\work'
-srcFolder = r'/mnt/c/auxDrive/work'
+#srcFolder = r'C:\auxDrive\srcfolder'
+srcFolder = r'/mnt/c/auxDrive/srcfolder'
 logfile = f'log_{now}.txt'
 logging.basicConfig(encoding='utf-8', level=logging.DEBUG)
 
@@ -174,7 +174,4 @@ def main():
     return df
 
 # extracts text from docx files
-#extract_text_from_pdf("/home/richard/Documents/supersearch/samplefolderstructure/CWEST Enhancements/PL-0001 OX Kicker Stroke Investigation/K-402191-PL-0001 R00.pdf")
-#text = textract.process("/home/richard/Documents/supersearch/samplefolderstructure/CWEST Enhancements/PL-0001 OX Kicker Stroke Investigation/K-402191-PL-0001 R00a.docx")
-#print(text)
 df = main()

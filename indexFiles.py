@@ -8,7 +8,7 @@ now = datetime.now().strftime("%Y%m%d-%H:%M:%S")
 '''
     For the given path, get the List of all files in the directory tree 
 '''     
-rootFolders = [r'C:\auxDrive\work', 'gg'];
+rootFolders = [r'C:\auxDrive\src', 'x'];
 saveFile = r'fileIndex.txt'
 
 ### END CONFIG
